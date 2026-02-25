@@ -257,8 +257,41 @@
           </div>
           <div class="col-lg-10 col-md-12 mx-auto">
             <p>The conference fee will include: access to all conference sessions and all co-located events (ie WISM and WISE delegates can attend all SEC sessions and vice-versa); electronic (online) proceedings; morning/afternoon breaks and lunches during the conference; and, all conference social events.</p>
-			<p>Registration link coming soon...</p>
+
+			<div class="modal fade" id="popupMember" tabindex="-1" aria-labelledby="popupMemberLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h1 class="modal-title fs-5" id="popupMemberLabel">Member Fee Eligibility</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					  </div>
+					  <div class="modal-body">
+						<p>This fee group (member fee discount) is only applicable to specific groups.  This includes:</p>
+						<p>
+							<i class="bi bi-1-circle"></i> IFIP TC/WG members<br>
+							<i class="bi bi-2-circle"></i> TC11 representatives of IFIP member national societies<sup>1</sup><br>
+							<i class="bi bi-3-circle"></i> Members/representatives of IFIP national ICT societies; National/International 'Members at Large'; 'Associate Members'; or, 'Honorary Members'<sup>2</sup>
+						</p>
+						<p>If you are not eligible under the above criteria, please close this window and select 'Standard Fee'.</p>
+						<p class="small">
+							<sup>1</sup>A full list is <a href="https://ifiptc11.org/members" target="_new">available here</a>.<br>
+							<sup>2</sup>A full list is <a href="https://www.ifip.org/country-representative-members/" target="_new">available here</a>.<br>
+						</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<a href="https://payonline.ecu.edu.au/Science/tran?UDS_ACTION_DATA=bVwhAUJFL3ZOL1ECNEJDd1dUQg1NLEYbWDQ2WgFGUER5MFFS"target="_new"><button type="button" class="btn btn-primary"><i class="bi bi-bag-fill"></i> Register</button></a>
+					  </div>
+					</div>
+				</div>
+			</div>
 			
+			<p>
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popupMember"><i class="bi bi-bag"></i> Member Fee</button>
+			<a href="https://payonline.ecu.edu.au/Science/tran?UDS_ACTION_DATA=FlFVBjVHWwpOKSN3RUJDByxRQndAXjEbXEM3WHMzI0EPTVBR" target="_new"
+			><button type="button" class="btn btn-primary"><i class="bi bi-bag-fill"></i> Standard Fee</button></a>
+			</p>
+					
 			<p class="lead text-body-secondary">Registration Fees</p>
 			<table class="table table-striped">
 			  <thead class="thead-dark">
@@ -304,7 +337,7 @@
 			<p class="small">All registration fees are quoted in Australian Dollars (AUD) and are inclusive of 10% GST (tax).<br>
 			Authors must register using the author rate and confirm their paper number in the registration process.<br>
 			Students may be asked to provide confirmation of their student enrolment status.<br>
-			<sup><b>*</b></sup> The 'member fee discount' is applicable to IFIP TC/WG members	and members of IFIP member national societies</p>
+			<sup><b>*</b></sup> The 'member fee discount' is applicable to IFIP TC/WG members and members of approved societies.</p>
 
 			<p class="lead text-body-secondary">Registration Policy</p>
 			<p>At least one distinct author for each accepted paper must register as an author (cannot register a single author for multiple papers).  Author registrations must be received by the <a href="dates.html">published deadline</a>.  Late author registrations will result in papers being excluded from the proceedings.</p>
