@@ -60,10 +60,21 @@
             background: var(--bs-tertiary-bg);
             border-radius: .5rem;
             padding: 1.25rem;
+            height: 100%;
         }
 
         .hotel-action {
             margin-top: 1.5rem;
+        }
+
+        .hotel-contact {
+            display: inline-block;
+            margin-top: .35rem;
+        }
+
+        .hotel-contact i {
+            color: var(--bs-primary);
+            margin-right: .35rem;
         }
 
         @media (max-width: 576px) {
@@ -164,7 +175,6 @@
 
     <div class="container pb-5 pt-4">
 
-        <!-- PAGE HEADER -->
         <header class="accommodation-header">
             <h1>Accommodation</h1>
             <p class="text-body-secondary mb-0">
@@ -174,8 +184,7 @@
             </p>
         </header>
 
-        <!-- ACCOMMODATION CARDS -->
-        <div class="row g-4">
+        <div class="row g-4 align-items-stretch">
 
             <!-- SUGGESTED HOTEL -->
             <div class="col-md-6">
@@ -232,7 +241,7 @@
 
                     <div class="hotel-card-header">
                         <i class="bi bi-building me-2"></i>
-                        Hotel Accommodation
+                        Further Hotel Accommodation
                     </div>
 
                     <div class="hotel-card-body">
@@ -245,32 +254,82 @@
 
                         <p class="text-body-secondary">
                             Linköping offers a range of accommodation
-                            options, including hotels and guest houses.
-                            Several hotels are located in the city centre,
-                            with convenient connections to Linköping
-                            University and the conference venue at
-                            Campus Valla.
+                            options. Several hotels are located in the
+                            city centre, with convenient connections to
+                            Linköping University and the conference
+                            venue at Campus Valla.
                         </p>
 
                         <div class="hotel-info">
-                            <strong>Recommended area</strong>
 
-                            <p class="mb-0 mt-2">
-                                Linköping City Centre<br>
-                                Linköping, Sweden
-                            </p>
-                        </div>
+                            <strong>Hotel Suggestions</strong>
 
-                        <div class="hotel-action">
-                            <a href="https://www.google.com/maps/search/hotels+Link%C3%B6ping+Sweden/"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               class="btn btn-outline-primary">
+                            <ul class="list-unstyled mb-0 mt-3">
 
-                                <i class="bi bi-geo-alt me-2"></i>
-                                Find hotels in Linköping
+                                <li class="mb-3">
+                                    <a href="https://www.scandichotels.se/linkopingcity">
+                                        Scandic City
+                                    </a>
+                                    <span class="text-body-secondary">
+                                        (by the river)
+                                    </span>
+                                    <br>
+                                    <span class="hotel-contact">
+                                        <i class="bi bi-telephone"></i>
+                                        <a href="tel:+46134955410">+46-13-495 54 10</a>
+                                    </span>
+                                    <br>
+                                    <span class="hotel-contact">
+                                        <i class="bi bi-envelope"></i>
+                                        <a href="mailto:linkopingcity@scandichotels.com">
+                                            linkopingcity@scandichotels.com
+                                        </a>
+                                    </span>
+                                </li>
 
-                            </a>
+                                <li class="mb-3">
+                                    <a href="https://www.elite.se/sv/hotell/linkoping/stora-hotellet/">
+                                        Elite Stora Hotellet
+                                    </a>
+                                    <span class="text-body-secondary">
+                                        (by the main square)
+                                    </span>
+                                    <br>
+                                    <span class="hotel-contact">
+                                        <i class="bi bi-telephone"></i>
+                                        <a href="tel:+4613129630">+46-13-129630</a>
+                                    </span>
+                                    <br>
+                                    <span class="hotel-contact">
+                                        <i class="bi bi-envelope"></i>
+                                        <a href="mailto:reservations.linkoping@elite.se">
+                                            reservations.linkoping@elite.se
+                                        </a>
+                                    </span>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.scandichotels.se/frimurarehotellet">
+                                        Scandic Frimurarehotellet
+                                    </a>
+                                    <span class="text-body-secondary">
+                                        (by the train station)
+                                    </span>
+                                    <br>
+                                    <span class="hotel-contact">
+                                        <i class="bi bi-telephone"></i>
+                                        <a href="tel:+46134953010">+46-13-4953010</a>
+                                    </span>
+                                    <br>
+                                    <span class="hotel-contact">
+                                        <i class="bi bi-envelope"></i>
+                                        <a href="mailto:frimis@scandichotels.com">
+                                            frimis@scandichotels.com
+                                        </a>
+                                    </span>
+                                </li>
+
+                            </ul>
                         </div>
 
                     </div>
@@ -284,7 +343,6 @@
 </section>
 </main>
 
-<!-- FOOTER -->
 <footer class="text-body-secondary py-5">
     <div class="container">
         <p class="float-end mb-1">
